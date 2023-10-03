@@ -1,0 +1,302 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+blockquote,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  width: 1440px;
+  margin: 0;
+  font-family: Gilroy;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+.section__color-grey {
+  background-color: #f1f1f2;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding : 32.73px 34px 35.73px 80px;
+}
+
+.header__logo {
+  margin-block-start: 8px;
+}
+
+.header__menu {
+  grid-column-start: 2;
+  justify-self: center;
+  margin-block-start: 0px;
+  align-self: center;
+
+}
+
+.header__menu-list {
+  display: flex;
+  gap: 31px;
+  list-style: none;
+  margin-inline-end: 46px;
+  margin-block-start: -10px;
+}
+
+.header__menu-list-item {
+  color: #000;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button {
+  border-radius: 5px;
+  border: 1px solid #f7941e;
+  display: flex;
+}
+
+.header__button {
+  display: flex;
+  width: 150px;
+  height: 43.5px;
+  flex-shrink: 0;
+  justify-self: flex-end;
+}
+
+.button-text {
+  margin: auto;
+  white-space: nowrap;
+  color: #f7941e;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+
+.intro__welcome {
+  padding: 144px 126px 135px 162px;
+}
+
+.intro__welcome-heading {
+  color: #000;
+  font-family: Gilroy;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-block-end: 43px;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+}
+
+.intro__welcome-text {
+  color: #000;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.625%;
+  margin-block-end: 58px;
+}
+
+.intro__button {
+  border-radius: 5px;
+  background: #f7941e;
+  display: flex;
+  width: 200px;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.intro__button-text {
+  color: #fff;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.intro__media1 {
+  background-image: url(./images/media1.svg);
+  background-repeat: no-repeat;
+  width: 719px;
+  height: 700px;
+  flex-shrink: 0;
+  background-position: center;
+  grid-column-start: 2;
+}
+
+.intro__media2 {
+  background-image: url(./images/media2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-area: 2/1/2/1;
+  width: 720px;
+  height: 600px;
+}
+
+.intro__how-we-work {
+  padding: 158px 166px 104px 113px;
+}
+
+.intro__how-we-work-heading {
+  color: #000;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.625%;
+  margin-block-end: 25px;
+}
+
+.intro__how-we-work-text {
+  color: #000;
+  text-align: justify;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.625%; 
+  margin-block-end: 39px;
+}
+
+.intro__how-we-work-button {
+  background: transparent;
+}
+
+.lots {
+  padding: 92px 135px 137px;
+}
+
+.lots__heading {
+  color: #000;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-block-end: 23px;
+}
+
+.lots__text {
+  color: #000;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135.938%;
+  margin-block-end: 69px;
+}
+
+.lots__cards {
+  display: flex;
+  gap: 30px;
+}
+
+.lots__card {
+  width: 270px;
+  flex-shrink: 0;
+  background: #fafafa;
+  padding-block-end: 24px;
+}
+
+.lots__card:active {
+  background: #fff;
+  box-shadow: 5px 5px 15px 0 #2e2424;
+  transition: 25ms;
+}
+
+.lots__card-image {
+  width: 271px;
+  height: 270px;
+  flex-shrink: 0;
+  margin-block-end: 23px;
+}
+
+.lots__card-image-birthday{
+  background-image: url(./images/Birthday.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lots__card-image-anniversary {
+  background-image: url(./images/Anniversary.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lots__card-image-valentines-day {
+  background-image: url(./images/Valentines-day.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lots__card-image-christmas {
+  background-image: url(./images/Christmas.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lots__card-title {
+  color: #000;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-block-end: 74px;
+  margin-inline-start: 24px;
+}
+
+.lots__card-see-more {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135.938%;
+  margin-inline-start: 24px;
+}
+
+
+
+
+
