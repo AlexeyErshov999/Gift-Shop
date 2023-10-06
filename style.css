@@ -13,6 +13,7 @@ html {
   --link-color: #000;
   --background-grey: #f1f1f2;
   --background-orange: #f7941e;
+  --background-footer: #fafafa;
 }
 
 body,
@@ -332,4 +333,127 @@ body {
 .sign-up__button-2-text {
   font-size: 18px;
   line-height: 134.766%;
+}
+
+.blogs {
+  padding: 84px 136px 80px 135px;
+}
+
+.blogs__heading {
+  margin-block-end: 23px;
+  font-size: 32px;
+  line-height: normal;
+  text-align: center;
+}
+
+.blogs__text {
+  margin-block-end: 77px;
+  font-size: 18px;
+  line-height: 135.938%;
+  text-align: center;
+}
+
+.blogs__banner {
+  display: flex;
+  margin-block-end: 34px;
+}
+
+.blogs__banner-image {
+  flex-shrink: 0;
+  width: 400px;
+  height: 370px;
+  background-image: url(./images/BlogsImage.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.blogs__banner-description {
+  padding: 61px 200px 49px 78px;
+  background: #231f20;
+}
+
+.blogs__banner-description-author {
+  color: #fff;
+  font-size: 14px;
+  line-height: 140.625%;
+}
+
+.blogs__banner-description-heading {
+  margin-block-start: 22px;
+  margin-block-end: 71px;
+  color: #fff;
+  font-size: 48px;
+  line-height: normal;
+}
+
+.blogs__banner-description-link {
+  color: #fff;
+  font-size: 18px;
+  line-height: 140.625%;
+}
+
+.blogs__cards {
+  display: flex;
+  gap: 30px;
+}
+
+.blogs__card {
+  flex-shrink: 0;
+  width: 570px;
+  padding: 48px 48px 50px;
+}
+
+.blogs__card-title {
+  margin-block-end: 17px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140.625%;
+}
+
+.blogs__card-text {
+  margin-block-end: 41px;
+  font-size: 18px;
+  line-height: 140.625%;
+}
+
+.blogs__card-link {
+  font-size: 14px;
+  line-height: 140.625%;
+}
+
+.footer {
+  display: flex;
+  padding: 106px 220px 35px;
+  background-color: var(--background-footer);
+}
+
+.footer__menu {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+.footer__menu-list {
+  display: flex;
+  list-style: none;
+}
+
+.footer__menu-item-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140.625%;
+}
+
+.footer__logo {
+  width: 41px;
+  height: 39px;
+}
+
+.footer__menu-item-logo {
+  margin-inline-start: 141px;
+  margin-inline-end: 141px;
+}
+
+.footer__logo-image {
+  width: 100%;
+  height: 100%;
 }
