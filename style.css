@@ -11,7 +11,8 @@ html {
 :root {
   --text-color: #000;
   --link-color: #000;
-  --backgroung-grey: #f1f1f2;
+  --background-grey: #f1f1f2;
+  --background-orange: #f7941e;
 }
 
 body,
@@ -110,8 +111,8 @@ body {
   line-height: normal;
 }
 
-.section__grey {
-  background-color: var(--backgroung-grey);
+.section-grey {
+  background-color: var(--background-grey);
 }
 
 .intro {
@@ -278,3 +279,57 @@ body {
   line-height: 135.938%;
 }
 
+.section-orange {
+  background-color: var(--background-orange);
+}
+
+.sign-up {
+  display: flex;
+  gap: 231px;
+  margin-block-start: 2px;
+  padding: 74px 235px 76px;
+}
+
+.sign-up__description {
+  align-self: flex-start;
+}
+
+.sign-up__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140.625%;
+}
+
+.sign-up__text {
+  font-size: 32px;
+  line-height: 140.625%;
+}
+
+.sign-up__buttons {
+  display: flex;
+  gap: 16px;
+  align-self: center;
+}
+
+.sign-up__button-1 {
+  width: 200px;
+  height: 50px;
+  background: #231f20;
+}
+
+.sign-up__button-1-text {
+  color: #fff;
+  font-size: 18px;
+  line-height: normal;
+}
+
+.sign-up__button-2 {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #000;
+}
+
+.sign-up__button-2-text {
+  font-size: 18px;
+  line-height: 134.766%;
+}
