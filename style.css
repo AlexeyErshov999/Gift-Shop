@@ -33,7 +33,7 @@ fieldset {
 
 a {
   color: var(--link-color);
-  font-family: 'Gilroy', sans-serif;
+  font-family: Gilroy, sans-serif;
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
@@ -100,7 +100,7 @@ body {
 
 .button__text {
   margin: auto;
-  font-family: 'Gilroy', sans-serif;
+  font-family: Gilroy, sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -124,7 +124,7 @@ body {
 
 .text {
   color: var(--text-color);
-  font-family: 'Gilroy', sans-serif;
+  font-family: Gilroy, sans-serif;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -141,7 +141,7 @@ body {
   line-height: normal;
 }
 
-.intro__section-1_text { 
+.intro__section-1_text {
   margin-block-end: 59px;
   font-weight: 400;
   font-size: 20px;
@@ -199,7 +199,7 @@ body {
 }
 
 .intro__section-2_button-text {
-  color: #F7941E;
+  color: #f7941e;
   font-size: 18px;
   line-height: 134.766%;
 }
@@ -275,7 +275,7 @@ body {
 }
 
 .card__see-more-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 135.938%;
 }
