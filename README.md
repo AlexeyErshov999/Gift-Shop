@@ -1,0 +1,1 @@
+Gift Shop project piblishing on Netlify
